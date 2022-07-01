@@ -34,7 +34,7 @@ class  Question(models.Model):
     difficulty = models.CharField(max_length=1, choices=DIFFICULTY, default="M")
     updateDate = models.DateTimeField(auto_now=True)
     createdDate = models.DateTimeField(auto_now_add=True)
-    quizTitle =models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name="questions")
+    quizTitle =models.ForeignKey(Quiz, on_delete=models.PROTECT, related_name="questions", null=True)
 
     def __str__(self):
         return self.question
