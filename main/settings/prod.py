@@ -1,7 +1,7 @@
 from .base import *
 
 # DEBUG = False
-DEBUG = True  # Lokalde denenmek istendiğinde True yapılmalı
+DEBUG = False  # Lokalde denenmek istendiğinde True yapılmalı
 
 ALLOWED_HOSTS = ['*']
 
@@ -16,3 +16,5 @@ DATABASES = {
         "ATOMIC_REQUESTS": True,
     }
 }
+
+DISABLE_COLLECTSTATIC = 1

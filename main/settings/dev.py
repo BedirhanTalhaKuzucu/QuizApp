@@ -9,7 +9,7 @@ THIRD_PARTY_APPS = ["debug_toolbar"]
 
 INSTALLED_APPS += THIRD_PARTY_APPS
 
-THIRD_PARTY_MIDDLEWARE = ["debug_toolbar.middleware.DebugToolbarMiddleware"]
+THIRD_PARTY_MIDDLEWARE = ("debug_toolbar.middleware.DebugToolbarMiddleware",)
 
 MIDDLEWARE += THIRD_PARTY_MIDDLEWARE
 # Database
