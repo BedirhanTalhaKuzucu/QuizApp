@@ -1,1 +1,3 @@
-web: gunicorn main.wsgi
+web: waitress-serve --listen=*:$PORT main.wsgi:application
+
+
