@@ -28,7 +28,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/BedirhanTalhaKuzucu/FlightReservationApp/blob/main/G%C4%B1fProject.gif)
+![screenshot](https://github.com/BedirhanTalhaKuzucu/QuizApp/blob/main/overviewProject.png)
 
 ### Built With
 
@@ -60,10 +60,9 @@ $ git clone https://github.com/BedirhanTalhaKuzucu/fireBaseBlog.git
 ```
 
 ## Acknowledgements
-- I have produced api for flight booking website with Django REST framework
+- I have produced api for Quiz App website with Django REST framework
 - I used sqlite database in development and PostgreSQL database in production.
 - Users can login and register.
-- I used token for authentication
 - I created api reference documentation using Swagger
 - I installed Django Debug Toolbar to get debug info about current request/response
 - Create, update, delete operations can be performed on more than one model with a single end point.
